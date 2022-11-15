@@ -67,10 +67,12 @@ font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
     color: #24126A;
   }
+ 
 
   p{
     font-size: 18px;
     font-family: 'Lora', serif;
+    color: #4a4a4a;
   }
 
   body{
@@ -114,7 +116,6 @@ font-family: 'Poppins', sans-serif;
   button{
     width: 150px;
     height: 45px;
-    
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     background-color: #24126A;
@@ -155,15 +156,55 @@ font-family: 'Poppins', sans-serif;
     padding-bottom: 30px;
 }
 
-  .top-story{
+  .top-story, .top-author{
     width: 100%;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: #24126A;
-    text-shadow: #24126A;
+    text-shadow: #3d2892;
+  }
+
+  .authors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about{
+    position: relative;
+    margin: 25px;
+    align-items: center;
+    text-align: center;
   }
   
   .footer{
-    background-image: image();
+    position: absolute;
+    width: 100%;
   }
+
+  input[type:text]{
+    width:80%
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;  
+  }
+
+  .endFoot{
+    position: absolute;
+    padding: 20pxs;
+    width: 100%;
+    
+    font-weight: bold;
+    bottom: 20px;
+    color: #fffafb;
+  }
+
+  .lasttext{
+    top: 90%;
+    width: 100%;
+    color: #fffafb;
+    text-align: center;
+  }
+
+  
